@@ -1,5 +1,10 @@
 ## Hello World Spring Batch
 
+#### Resumo
+- Foi usado o Spring Initializer and Maven para criar a estrutura básica do projeto
+- As anotações @EnableBatchProcessing e @SpringBootApplication foram usadas para habilitar a utilização do Batch
+- Foi criado um Spring Batch Job para imprimir "Hello world!" utilizando alguns componentes importantes como JobBuilderFactory, StepBuilderFactory e um banco de dados em memória (H2 Database)
+
 #### Project creation (using STS4)
 ```
  New > Spring Starter Project
